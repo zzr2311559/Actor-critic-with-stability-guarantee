@@ -17,13 +17,13 @@ conda activate test
 
 ```bash
 git clone https://github.com/hithmh/Actor-critic-with-stability-guarantee
-pip install numpy==1.16.3
-pip install tensorflow==1.13.1
-pip install tensorflow-probability==0.6.0
-pip install opencv-python
-pip install cloudpickle
-pip install gym
-pip install matplotlib
+pip install numpy==1.16.3 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install tensorflow==1.13.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install tensorflow-probability==0.6.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install cloudpickle -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install gym -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 Then you are free to run main.py to train agents. Hyperparameters for training LAC in Cartpole are ready to run by default. If you would like to test other environments and algorithms, please open variant.py and choose corresponding 'env_name' and 'algorithm_name'.
