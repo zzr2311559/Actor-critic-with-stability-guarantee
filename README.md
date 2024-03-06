@@ -20,7 +20,7 @@ git clone https://github.com/hithmh/Actor-critic-with-stability-guarantee
 pip install numpy==1.16.3 -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install tensorflow==1.13.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install tensorflow-probability==0.6.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
-pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install opencv-python==4.3.0.38 -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install cloudpickle -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install gym -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple
